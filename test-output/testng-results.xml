@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+    <groups>
+      <group name="regression">
+        <method signature="GroppingTestCase.login()[pri:1, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="login" class="GroppingTestCase.GroppingTestCase"/>
+        <method signature="GroppingTestCase.logout()[pri:7, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="logout" class="GroppingTestCase.GroppingTestCase"/>
+        <method signature="GroppingTestCase.prepaidRecharge()[pri:5, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="prepaidRecharge" class="GroppingTestCase.GroppingTestCase"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroppingTestCase.login()[pri:1, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="login" class="GroppingTestCase.GroppingTestCase"/>
+        <method signature="GroppingTestCase.logout()[pri:7, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="logout" class="GroppingTestCase.GroppingTestCase"/>
+        <method signature="GroppingTestCase.prepaidRecharge()[pri:5, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="prepaidRecharge" class="GroppingTestCase.GroppingTestCase"/>
+        <method signature="GroppingTestCase.search()[pri:4, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="search" class="GroppingTestCase.GroppingTestCase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="79" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+      <class name="GroppingTestCase.GroppingTestCase">
+        <test-method status="PASS" signature="login()[pri:1, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="login" duration-ms="0" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="prepaidRecharge()[pri:5, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="prepaidRecharge" duration-ms="0" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepaidRecharge -->
+        <test-method status="PASS" signature="search()[pri:4, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="search" duration-ms="0" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:GroppingTestCase.GroppingTestCase@2a17b7b6]" name="logout" duration-ms="0" started-at="2021-12-10T13:39:03 IST" finished-at="2021-12-10T13:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- GroppingTestCase.GroppingTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
